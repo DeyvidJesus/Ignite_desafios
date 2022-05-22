@@ -1,0 +1,56 @@
+.posts {
+    font-family: "Inter", sans-serif;
+
+    a {
+        display: block;
+    }
+
+    button {
+        border: none;
+        background: transparent;
+        font-weight: 600;
+        color: var(--highlight);
+        font-size: 1.125rem;
+        margin-top: 2rem;
+    }
+}
+
+.post {
+    margin-bottom: 2.5rem;
+
+    strong {
+        font-weight: 700;
+        font-size: 1.75rem;
+        letter-spacing: -0.5px;
+        color: var(--heading);
+
+        &:hover {
+            color: var(--highlight);
+        }
+    }
+
+    p {
+        font-size: 1.125rem;
+        margin: 1rem 0 2rem;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 263px;
+        color: var(--info);
+
+        li {
+            width: 130px;
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 0.875rem;
+
+            svg {
+                margin-right: 8px;
+            }
+        }
+    }
+}
